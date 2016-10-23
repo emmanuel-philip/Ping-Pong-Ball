@@ -11,18 +11,22 @@
     <event eventtype="5" enumb="39">
       <action>
         <libid>1</libid>
-        <id>103</id>
+        <id>101</id>
         <kind>0</kind>
         <userelative>-1</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_set_hspeed</functionname>
+        <functionname>action_move</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>000001000</string>
+          </argument>
           <argument>
             <kind>0</kind>
             <string>10</string>
@@ -33,18 +37,22 @@
     <event eventtype="5" enumb="37">
       <action>
         <libid>1</libid>
-        <id>103</id>
+        <id>101</id>
         <kind>0</kind>
         <userelative>-1</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_set_hspeed</functionname>
+        <functionname>action_move</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>000100000</string>
+          </argument>
           <argument>
             <kind>0</kind>
             <string>-10</string>
@@ -78,13 +86,13 @@
   <PhysicsObject>-1</PhysicsObject>
   <PhysicsObjectSensor>0</PhysicsObjectSensor>
   <PhysicsObjectShape>1</PhysicsObjectShape>
-  <PhysicsObjectDensity>0.5</PhysicsObjectDensity>
+  <PhysicsObjectDensity>0.100000001490116</PhysicsObjectDensity>
   <PhysicsObjectRestitution>0.100000001490116</PhysicsObjectRestitution>
   <PhysicsObjectGroup>0</PhysicsObjectGroup>
   <PhysicsObjectLinearDamping>0.100000001490116</PhysicsObjectLinearDamping>
   <PhysicsObjectAngularDamping>0.100000001490116</PhysicsObjectAngularDamping>
-  <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
-  <PhysicsObjectAwake>-1</PhysicsObjectAwake>
+  <PhysicsObjectFriction>0</PhysicsObjectFriction>
+  <PhysicsObjectAwake>0</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
     <point>0,0</point>
